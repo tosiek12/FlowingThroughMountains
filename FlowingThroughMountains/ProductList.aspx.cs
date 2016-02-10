@@ -7,11 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace FlowingThroughMountains
 {
-    public partial class _Default : Page
+    public partial class ProductList : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Console.WriteLine("Page Load default.aspx.cs");
+
         }
     }
 }

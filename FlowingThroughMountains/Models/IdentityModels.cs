@@ -30,7 +30,7 @@ namespace FlowingThroughMountains.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("FlowingThroughMountains", throwIfV1Schema: false)
         {
         }
 
